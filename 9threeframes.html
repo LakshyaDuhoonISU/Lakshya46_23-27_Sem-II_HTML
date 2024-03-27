@@ -1,0 +1,16 @@
+<!-- Use frames such that page is divided into 3 frames 20% on left to
+show contents of pages, 60% in center to show body of page,
+remaining on right to show remarks. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frame Layout</title>
+</head>
+<frameset cols="20%, 60%, *">
+    <frame src="5nestedlist.html" name="contents">
+    <frame src="body.html" name="body">
+    <frame src="remarks.html" name="remarks">
+</frameset>
+</html>
